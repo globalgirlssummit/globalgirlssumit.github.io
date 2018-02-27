@@ -10,6 +10,9 @@
 .tw-marg {
 	margin-left: 50px;
 }
+.fb_iframe_widget_fluid {
+    display: block;
+}
 @media (max-width: 479px) {
 	.fb-share-button {
 		transform: scale(1.5);
