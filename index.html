@@ -4,7 +4,6 @@
   <title>Global Girls Summit</title>
   <meta content="Global Girls Summit" property="og:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <meta content="Webflow" name="generator">
   <meta property="og:url" content="http://www.girl-summit.com" />
   <meta property="og:type"          content="article" />
   <meta property="og:title"         content="Global Girls Summit" />
@@ -41,7 +40,7 @@
     var js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=927344050619238';
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
   <div>
@@ -92,7 +91,7 @@
           <form id="email-form" name="email-form" data-name="Email Form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
             <input type=hidden name='captcha_settings' value='{"keyname":"Global_Girls_Summit","fallback":"true","orgId":"00DG0000000l6gA","ts":""}'>
             <input type=hidden name="oid" value="00DG0000000l6gA">
-            <input type=hidden name="retURL" value="thank-you.html">
+            <input type=hidden name="retURL" value="https://globalgirlssummit.github.io/thank-you.html">
             <input type=hidden name="lead_source" value="Global Girls Summit">
             <label for="first_name" class="field-label">First Name:</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" class="text-field w-input" placeholder="Enter your first name"/>
             <label for="last_name" class="field-label">Last Name:</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" class="text-field w-input" placeholder="Enter your last name"/>
