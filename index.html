@@ -5,6 +5,11 @@
   <meta content="Global Girls Summit" property="og:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
+  <meta property="og:url" content="http://www.girl-summit.com" />
+  <meta property="og:type"          content="website" />
+  <meta property="og:title"         content="Global Girls Summit" />
+  <meta property="og:description"   content="Girls Who Code just dropped this amazing teaser video for the first-ever entirely digital summit for girls. I just signed up, can't wait to see what they have planned for Oct. 11! #GlobalGirlSummit" />
+  <!-- <meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" /> -->
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/girls-who-code.webflow.css" rel="stylesheet" type="text/css">
@@ -25,6 +30,14 @@
   </script>
 </head>
 <body class="body-color">
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=927344050619238';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
   <div>
     <div class="w-container"><a href="http://girlswhocode.com/" class="brand brand-marg w-nav-brand"><img src="images/GWC_logo_white.png"></a></div>
   </div>
@@ -36,28 +49,12 @@
       <div class="video-share-div">
         <div class="w-row">
           <div class="w-clearfix w-col w-col-6 w-col-small-6 w-col-tiny-6">
-            <a href="#" class="fb-link-blk w-inline-block">
-              <div class="fb-share-btn fb-marg">
-                <div class="w-row">
-                  <div class="w-clearfix w-col w-col-6 w-col-small-6 w-col-tiny-6"><img src="images/fb-icon.png" class="fb-icon"></div>
-                  <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6">
-                    <div class="fb-share-txt">Share</div>
-                  </div>
-                </div>
-              </div>
-            </a>
+            <div class="fb-share-button" data-href="http://www.girl-summit.com" data-layout="button" data-size="large" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.girl-summit.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a>
+            </div>       
           </div>
           <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6">
-            <a href="#" class="twitter-link-blk w-inline-block">
-              <div class="twitter-share-btn tw-marg">
-                <div class="w-row">
-                  <div class="w-clearfix w-col w-col-6 w-col-small-6 w-col-tiny-6"><img src="images/twitter-img.png" class="tw-icon"></div>
-                  <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6">
-                    <div class="tw-share-txt">Tweet</div>
-                  </div>
-                </div>
-              </div>
-            </a>
+            <a href="https://twitter.com/intent/tweet?button_hashtag=share&ref_src=twsrc%5Etfw&text=Whoa.+%40GirlsWhoCode+just+released+a+teaser+video+for+the+first-ever+entirely+digital+summit+for+girls+-+I+just+signed+up.+Can%27t+wait+to+see+what+they+have+planned%21++%23GlobalGirlSummit+Check+it+out.+www.girl-summit.com" class="twitter-hashtag-button" data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
         </div>
       </div>
