@@ -26,4 +26,13 @@
 	.tw-marg {
 		margin-left: 20px;
 	}
+	.email-signup-blk {
+		margin-top: 50px;
+	}
+	.white-txt.white-txt-header-size {
+    font-size: 32px;
+	}
+	.section.video-sect {
+    margin-bottom: 0px;
+	}
 }
