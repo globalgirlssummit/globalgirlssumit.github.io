@@ -15,10 +15,10 @@
 }
 @media (max-width: 479px) {
 	.fb-share-button {
-		transform: scale(1.5);
+		transform: scale(1);
 	}
 	.twitter-share-button {
-		transform: scale(1.5);
+		transform: scale(1);
 	}
 	.fb-marg {
 		margin-right: 20px;
