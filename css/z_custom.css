@@ -35,4 +35,7 @@
 	.section.video-sect {
     margin-bottom: 0px;
 	}
+	.h2-txt.h2-center {
+		font-size: 24px;
+	}
 }
