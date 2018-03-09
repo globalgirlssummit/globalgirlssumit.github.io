@@ -18,12 +18,11 @@
   color: #fff;
   font-weight: 400;
   text-align: center;
-  padding-top: 30px;
 }
 .non-profit-div {
-	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 20px;
 }
 
 @media (max-width: 479px) {
@@ -55,6 +54,7 @@
 	  padding-top: 0px;
 	}
 	.non-profit-div {
-		width: auto;
+		padding-left: 20px;
+		padding-right: 20px;
 	}
 }
