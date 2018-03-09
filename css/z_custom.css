@@ -11,7 +11,7 @@
 	margin-left: 50px;
 }
 .fb_iframe_widget_fluid {
-    display: block;
+    display: block !important;
 }
 .non-profit-text {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -25,6 +25,7 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
 @media (max-width: 479px) {
 	.fb-share-button {
 		transform: scale(1);
